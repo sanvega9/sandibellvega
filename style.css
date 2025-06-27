@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI',sans-serif;
+    background: #ffffff;
+    color: #2e3a59;
+}
+header{
+    background-color: lightcoral;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+header h1{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 25px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transform: color 0.3s ease;
+}
+.nav-links a:hover{
+    color: #ff03c0;
+}
+.section{
+    padding: 80px 40px; 
+    max-width: 1000px;
+    margin: auto;
+}
+.home-section{
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255,191,215);
+    text-shadow: 1px 1px 6px #fd4e97;
+}
+.recent-project{
+    background-image: linear-gradient(#fae6e6, rgb(252, 173, 252));
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+p{
+ 
+ font-size: 20px;
+}
+.intro{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.typed-text::after{
+    content: '|';
+    animation:  blink 0.8s infinite;
+    color: #ffffff;
+}
+h2{
+    color: #ff03c0;
+    font-size: 32px;
+    text-align: center;
+}
+/* .video-container{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+    padding-bottom: 56.28%;
+    height: 0;
+} */
